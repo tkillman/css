@@ -1,0 +1,19 @@
+
+
+1강 web과 html
+
+4강 div , span
+
+5강 시멘틱 태그
+
+7강 css 기본 – tag,id, class 혼합 – 속성 선택자 – 후손 및 자손 선택자 – 동위 선택자
+
+8강 css기본 - 반응 선택자 , 구조 선택자
+
+10강 css 속성 - url , display , visibility , opacity 
+
+11강 css 속성 - margin , padding , box-sizing , border , background-images
+
+13강 css 속성 - font-family , font - size , font - style , font - weight , line - height 
+		    - text-align , text - decoration , -position
+		    
