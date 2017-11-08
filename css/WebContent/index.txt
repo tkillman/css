@@ -14,6 +14,11 @@
 
 11강 css 속성 - margin , padding , box-sizing , border , background-images
 
-13강 css 속성 - font-family , font - size , font - style , font - weight , line - height 
+12강 css 속성 - font-family , font - size , font - style , font - weight , line - height 
 		    - text-align , text - decoration , -position
+		    
+20강 css - 테블릿 구조
+		    
+27강 css 반응형 웹
+		    
 		    

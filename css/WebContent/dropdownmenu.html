@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<title>responsive dropdown menu</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+
+
+#header{background-color:#6A84B7;color:white;}
+a{text-decoration:none;color:white;}
+a.author{color:grey;} 
+label, #toggle{display : none;}
+#nav{ padding:0; margin:0;display:inline;}
+#nav li{display:inline;}
+#contents {min-height: 200px; background: #D9E5FF;}
+#footer{background-color:#EAEAEA;font-size:13px;}
+
+/* Android 버그 교정 */ 
+body { 
+  -webkit-animation: bugfix infinite 1s; 
+}
+@-webkit-keyframes bugfix { 
+  from { padding: 0; } 
+  to { padding: 0; } 
+} 
+ 
+@media screen and (max-width: 480px) 
+{
+
+#nav li{display:none;width:100%;text-align:center;border-top:1px solid #ccc;padding: 4px;}
+
+#toggle:checked + #nav li{display:block;} 
+
+label {display:block; text-align:center;background: url('menu.png'); background-repeat: no-repeat;background-position:97% 10px;background-size: 24px 19px;
+font-size:20px; font-weight:bold;padding:4px 3%;
+}
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<label for="toggle">MENU</label>
+<input type="checkbox" id="toggle"/>
+<ul id="nav">
+<li><a href="#">Home</a></li>
+<li><a href="#">Guest</a></li>
+<li><a href="#">Noitce</a></li>
+</ul>
+</div>
+<div id="contents">본문</div>
+<div id="footer">
+Designed by 지구별 안내서 / Icons made by <a class="author" href="http://www.flaticon.com/authors/anton-saputro" title="Anton Saputro">Anton Saputro</a> from 
+<a class="author" href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
+ is licensed by <a class="author" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+
+</body>
+
+</html>

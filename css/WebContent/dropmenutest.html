@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" name="viewport" content="width=device-width, 
+          initial-scale=1.0, minimum-scale=1.0,user-scalable=no" />
+
+<title>Insert title here</title>
+</head>
+
+<style>
+ *{ margin: 0 ; padding: 0;}
+  
+ #menu { width : 100% ; background-color: purple;}
+ 
+ #menu_name { display: none;}
+ 
+ input[id=toggle] { display: none;}
+ 
+ img {position : absolute; top : 5px ; right: 10px; width: 45px; height: 45px; display: none;}
+   
+ 
+ 
+ #menu ul { overflow: hidden;}
+ #menu ul li { float: left ; list-style: none; padding: 5px; color: white;}
+
+ #content { width: 100% ;  min-height: 100px ; background-color: blue;}
+  
+ #footer{ width: 100%; height: 50px; background-color: #cccccc;}
+ 
+ 
+ 
+ @media screen and (max-width : 480px) 
+ 
+ { 
+ 
+ *{ margin: 0 ; padding: 0;}
+ 
+ #menu_name { height: 50px; background-color: purple; text-align: center; color: white ; line-height: 50px; display: block;}
+ 
+ #menu ul { top : 50px; width: 100%; display: none;}
+ 
+ #menu ul li { clear: both;  width: 100% ; height: 50px; background-color: yellow;
+ 						border : 1px solid;
+ 						text-align : center;
+ 						line-height : 50px;
+ 						box-sizing : border-box;
+ 						color: red;
+ }
+ 
+ img { display: block;}
+
+ 
+  
+ #toggle:checked + ul { display: block; }
+ 
+ #footer { position: absolute;}
+ 
+ }
+</style>
+
+<body>
+
+
+  
+<div id="menu">
+<label for="toggle" onclick=""><img alt="메뉴바" src="menu.png"></label>
+<div id="menu_name">menu</div>
+<input type="checkbox" id="toggle"/>
+<ul><li>Home</li>
+<li>Guest</li>
+<li>Notice</li>
+</ul>
+
+</div>
+<div id="content">본문</div>
+<div id="footer">푸터</div>
+</body>
+
+
+</html>
