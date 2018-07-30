@@ -9,10 +9,13 @@
 <body>
 
 
-<h1>시멘틱 태그란</h1>
+<h1>시맨틱 태그란 semantic</h1>
+<div>
+<span>특정한 태그에 의미를 부여</span>
+<span>header , nav , section ,  footer</span>
+</div>
 
-header , nav , section ,  footer
-
+<div><img src="images/시맨틱.PNG" width="1000" height="600"></div>
 
 </body>
 </html>

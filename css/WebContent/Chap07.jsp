@@ -12,10 +12,11 @@
 
 ul li#m3 { background-color: yellow}
 
-  
-#div1 span {background-color: blue ; display: inline-block; width: 300px ; height: 30px; margin: 30px;} /*후손*/
+#div1 > span{ color : red; font-size: 50px;} /*자손 */
+   
+#div1 span {background-color: blue ; display: inline-block; width: 300px ; height: 50px; margin: 30px;} /*후손*/
  
-#div1 > span{ color : red;} /*자손 */
+
 
 
 /* 동위 선택자 */

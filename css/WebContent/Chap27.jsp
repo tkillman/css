@@ -26,7 +26,7 @@
 
 
 <h1> 반응형 웹</h1>
-
+크기를 조절해보세요.
 <div id="div1">div1</div>
 </body>
 </html>
